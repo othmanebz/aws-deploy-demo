@@ -133,15 +133,14 @@ Make sure your pipeline role has these permissions:
 **Othmane Bouziane**  
 💼 Cloud Computing & Virtualization Engineer  
 📍 Morocco  
-🔗 [LinkedIn](https://www.linkedin.com/in/othmanebouziane)  
+🔗 [LinkedIn](https://www.linkedin.com/in/bouziane-othmane-ba489127b/)  
 
 ---
 
 ## 🏁 Future Improvements
 
 - Add **CloudWatch Alarms** for monitoring deployment failures.  
-- Integrate **AWS CodeBuild** for build/test automation.  
-- Add a **Light/Dark mode toggle** on the portfolio site.  
+- Integrate **AWS CodeBuild** for build/test automation.   
 - Extend the pipeline to **multiple environments** (dev, staging, prod).
 
 ---
@@ -153,5 +152,3 @@ Make sure your pipeline role has these permissions:
 - [AWS Free Tier](https://aws.amazon.com/free)
 
 ---
-
-> **Tip:** Keep this project running on the AWS Free Tier and showcase it in your portfolio or LinkedIn — it’s a perfect demonstration of your DevOps skills.
