@@ -3,38 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Othmane's AWS Deployment</title>
+  <title>Welcome to Othmane’s Cloud App</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: linear-gradient(120deg, #0078D7, #00C6FF);
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0078D7, #00C6FF);
       color: white;
       height: 100vh;
-      margin: 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
+      margin: 0;
     }
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.5em;
+      font-size: 3em;
+      margin-bottom: 10px;
     }
     p {
       font-size: 1.2em;
+      margin-top: 0;
     }
-    .btn {
-      margin-top: 20px;
+    button {
       background: white;
       color: #0078D7;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
       font-weight: bold;
-      transition: 0.3s;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
     }
-    .btn:hover {
+    button:hover {
       background: #0078D7;
       color: white;
       border: 2px solid white;
@@ -42,8 +44,8 @@
   </style>
 </head>
 <body>
-  <h1>🚀 Deployment Successful!</h1>
-  <p>Welcome to your AWS Elastic Beanstalk web app deployed through CodePipeline.</p>
-  <a href="https://aws.amazon.com/" target="_blank" class="btn">Learn More</a>
+  <h1>🚀 Continuous Deployment Active!</h1>
+  <p>This version was deployed automatically using <strong>AWS CodePipeline</strong> and <strong>Elastic Beanstalk</strong>.</p>
+  <button onclick="alert('Deployment successful!')">Test Me</button>
 </body>
 </html>
