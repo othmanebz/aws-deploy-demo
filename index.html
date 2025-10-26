@@ -3,49 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Othmane’s Cloud App</title>
+  <title>Othmane B. | Cloud Computing Engineer</title>
   <style>
     body {
+      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0078D7, #00C6FF);
+      background: linear-gradient(135deg, #0A192F, #0078D7);
       color: white;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin: 0;
     }
+
     h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+      font-size: 2.8em;
+      margin-bottom: 0.2em;
     }
+
+    h2 {
+      font-weight: 400;
+      margin-bottom: 0.5em;
+      color: #64FFDA;
+    }
+
     p {
-      font-size: 1.2em;
-      margin-top: 0;
+      max-width: 700px;
+      line-height: 1.6;
+      font-size: 1.1em;
+      color: #EDEDED;
     }
-    button {
-      background: white;
-      color: #0078D7;
+
+    .btn {
+      background: #64FFDA;
+      color: #0A192F;
       border: none;
       padding: 12px 25px;
-      font-size: 1em;
-      font-weight: bold;
-      border-radius: 6px;
+      border-radius: 8px;
+      margin-top: 20px;
       cursor: pointer;
-      transition: all 0.3s ease;
+      font-weight: bold;
+      font-size: 1em;
+      transition: 0.3s;
     }
-    button:hover {
-      background: #0078D7;
-      color: white;
-      border: 2px solid white;
+
+    .btn:hover {
+      background: transparent;
+      color: #64FFDA;
+      border: 2px solid #64FFDA;
+    }
+
+    .logos {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .logos img {
+      width: 90px;
+      opacity: 0.9;
+      transition: 0.3s;
+    }
+
+    .logos img:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9em;
+      color: #a8b2d1;
     }
   </style>
 </head>
 <body>
-  <h1>🚀 Continuous Deployment Active!</h1>
-  <p>This version was deployed automatically using <strong>AWS CodePipeline</strong> and <strong>Elastic Beanstalk</strong>.</p>
-  <button onclick="alert('Deployment successful!')">Test Me</button>
+
+  <h1>☁️ Othmane Bouziane</h1>
+  <h2>Cloud Computing & DevOps Engineer</h2>
+  <p>
+    This website was automatically deployed using <strong>AWS CodePipeline</strong> and <strong>Elastic Beanstalk</strong>.  
+    Every change I push to GitHub triggers a new deployment — demonstrating continuous integration and delivery (CI/CD) in the cloud.
+  </p>
+
+  <button class="btn" onclick="window.open('https://aws.amazon.com', '_blank')">Explore AWS</button>
+
+  <div class="logos">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/GitHub_Invertocat_Logo.svg" alt="GitHub Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Cloud_computing_icon.svg" alt="Cloud Icon">
+  </div>
+
+  <footer>© 2025 Othmane B. — Continuous Deployment Demo</footer>
+
 </body>
 </html>
