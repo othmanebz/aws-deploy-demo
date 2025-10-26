@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="screenshots/img2.png" width="600" alt="Othmane Bouziane AWS CI/CD Demo">
-</p>
-
-<h2 align="center">☁️ AWS CodePipeline + Elastic Beanstalk CI/CD Project</h2>
-<p align="center">Fully automated web app deployment using GitHub → AWS Pipeline → Elastic Beanstalk</p>
-
 # ☁️ Continuous Deployment with AWS CodePipeline & Elastic Beanstalk
 
 This project demonstrates a **CI/CD (Continuous Integration and Continuous Deployment)** pipeline built entirely with **AWS services**.  
