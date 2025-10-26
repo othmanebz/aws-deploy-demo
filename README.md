@@ -40,6 +40,42 @@ Whenever code is updated on GitHub, the pipeline:
 | Monitoring | **CloudWatch** | Tracks application logs & health |
 
 ---
+## 📸 Project Screenshots
+
+### 1️⃣ Elastic Beanstalk Environment
+Shows the live application running successfully on AWS Elastic Beanstalk.
+![Elastic Beanstalk Environment](screenshots/img7.png)
+
+---
+
+### 2️⃣ IAM Roles Configuration
+IAM roles created for Elastic Beanstalk and EC2 instances.
+![IAM Roles](screenshots/img6.png)
+
+---
+
+### 3️⃣ CodePipeline Workflow
+Pipeline connected to GitHub as source and Elastic Beanstalk as deployment target.
+![CodePipeline Workflow](screenshots/img4.png)
+
+---
+
+### 4️⃣ Successful Pipeline Execution
+Automatic deployment triggered by GitHub commit.
+![Pipeline Success](screenshots/img1.png)
+
+---
+
+### 5️⃣ Deployed Web Application
+Deployed web app showcasing portfolio and automation.
+![Live Website](screenshots/img2.png)
+
+---
+
+### 6️⃣ Deployment Success Page
+Confirmation message that deployment was completed.
+![Deployment Success](screenshots/img5.png)
+
 
 ## 📂 Project Structure
 
