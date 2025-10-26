@@ -50,14 +50,14 @@ Whenever code is updated on GitHub, the pipeline:
 ## 📸 Project Screenshots
 
 ### 1️⃣ Elastic Beanstalk Environment
-Shows the live application running successfully on AWS Elastic Beanstalk.
+Shows the environment health and domain.
 ![Elastic Beanstalk Environment](screenshots/img1.png)
 
 ---
 
 ### 2️⃣ IAM Roles Configuration
-IAM roles created for Elastic Beanstalk and EC2 instances.
-![IAM Roles](screenshots/img6.png)
+Service and EC2 roles created for Elastic Beanstalk.
+![IAM Roles](screenshots/img2.png)
 
 ---
 
@@ -69,19 +69,21 @@ Pipeline connected to GitHub as source and Elastic Beanstalk as deployment targe
 
 ### 4️⃣ Successful Pipeline Execution
 Automatic deployment triggered by GitHub commit.
-![Pipeline Success](screenshots/img1.png)
+![Pipeline Success](screenshots/img6.png)
 
 ---
 
-### 5️⃣ Deployed Web Application
-Deployed web app showcasing portfolio and automation.
-![Live Website](screenshots/img2.png)
+### 5️⃣ Deployment Success Page
+“Deployment Successful!” confirmation screen.
+
+![Live Website](screenshots/img5.png)
 
 ---
 
-### 6️⃣ Deployment Success Page
-Confirmation message that deployment was completed.
-![Deployment Success](screenshots/img5.png)
+### 6️⃣ Web Application after changes
+After a minute or so, we  note that the webpage has changed in appearance
+
+![Deployment Success](screenshots/img7.png)
 
 
 ## 📂 Project Structure
